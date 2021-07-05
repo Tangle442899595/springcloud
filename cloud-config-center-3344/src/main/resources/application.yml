@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:zzyybs/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://github.com/Tangle442899595/springcloud-config.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
             - springcloud-config
@@ -20,3 +20,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+#https://blog.csdn.net/u011863024/article/details/114298282
